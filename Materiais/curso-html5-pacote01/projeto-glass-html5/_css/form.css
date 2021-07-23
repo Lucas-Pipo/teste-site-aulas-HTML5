@@ -1,0 +1,100 @@
+@charset "UTF-8"
+
+form{
+    width: 500px;
+    margin: auto;
+}
+
+input, textarea{
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 11pt;
+    background-color: rgba(255, 255, 255, .8);
+}
+
+
+
+input:hover{
+    background-color: #dddddd;
+}
+
+input#cNome{
+    position: relative;
+    left: 2px;
+}
+
+input#cNum{
+    position: relative;
+    left: 25px;
+}
+
+select#cEst{
+    position: relative;
+    left: 32px;
+}
+
+input#cCid{
+    position: relative;
+    left: 30px;
+}
+
+textarea#cMsg{
+    position: relative;
+    left: 140px;
+    bottom: 35px;
+}
+
+input#cQtd{
+    width: 30px;
+}
+
+input#cTot{
+    width: 34px;
+}
+input#cBtn{
+    position: relative;
+    left: 400px;
+}
+
+label#cMsg{
+    position: relative;
+    top: 32px;
+}
+
+legend{
+    color: #888888;
+    font-weight: bold;
+    font-size: 13pt;
+    font-family: sans-serif;
+}
+
+label{
+    font-weight: 500;
+}
+
+fieldset{
+    border-color: #cecece;
+    margin: 20px;
+}
+
+fieldset#sexo{
+    width: 150px;
+    position: relative;
+    left: 29px;
+}
+
+fieldset#usuario{
+    background: url(../_imagens/icone-contato.png) no-repeat 95% 95%;
+}
+
+fieldset#endereco{
+    background: url(../_imagens/icone-endereco.png) no-repeat 95% 95%;
+}
+
+fieldset#mensagem{
+    background: url(../_imagens/icone-mensagem.png) no-repeat 95% 95%;
+}
+
+fieldset#pedido{
+    background: url(../_imagens/icone-pagamento.png) no-repeat 95% 95%;
+}
